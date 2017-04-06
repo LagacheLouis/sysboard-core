@@ -148,7 +148,7 @@ public abstract class AbstractDataLayer {
 	 * @throws SecurityException
 	 * @throws IOException
 	 */
-	public Collection<?> getData() throws IllegalArgumentException, IllegalAccessException, NoSuchFieldException, SecurityException, IOException
+	public Collection<?> getData()
 	{
 		if(isFirstLaunch){
 			this.setUpSystems();
@@ -163,7 +163,13 @@ public abstract class AbstractDataLayer {
 			systemsUnderTest = filter.filter(systemsUnderTest);
 		}
 		
-		return this.convertToDisplayList(systemsUnderTest);
+		try {
+            return this.convertToDisplayList(systemsUnderTest);
+        } catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return null;
 	}
 	
 	/**

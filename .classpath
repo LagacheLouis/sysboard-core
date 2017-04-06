@@ -7,5 +7,7 @@
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/mpe-commons-util"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mpe-systems-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mpe-systems-domain-mps"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

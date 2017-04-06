@@ -8,11 +8,11 @@
 [QUIET] - -------------------
 [QUIET] - User of execution:  llagache
 [QUIET] - Working directory:  C:\Users\llagache\TE-MPE-Eclipse-Mars-Java
-[QUIET] - Project directory:  \\CERN.CH\dfs\Users\l\llagache\Desktop\src\sysboard-core
+[QUIET] - Project directory:  C:\Users\llagache\Workspaces\TE-MPE-Eclipse-Mars-Java\sysboard-core
 [QUIET] - Host of execution:  pcte23708
-[QUIET] - Start of execution: Tue Apr 04 15:41:51 CEST 2017
+[QUIET] - Start of execution: Thu Apr 06 10:25:43 CEST 2017
 [QUIET] - -------------------
-[WARN] - Cannot find \\CERN.CH\dfs\Users\l\llagache\Desktop\src\sysboard-core\product.xml
+[WARN] - Cannot find C:\Users\llagache\Workspaces\TE-MPE-Eclipse-Mars-Java\sysboard-core\product.xml
 [INFO] - This is NOT a release server
 [INFO] - Cached resource http://artifactory.cern.ch/development/cern/devops/artifact-checker/artifact-checker-configuration/1.0.0-SNAPSHOT/artifact-checker-configuration-1.0.0-20170303.091558-23.pom is up-to-date (lastModified: Mon Apr 03 06:34:15 CEST 2017).
 [INFO] - Cached resource http://artifactory.cern.ch/development/cern/devops/artifact-checker/artifact-checker-configuration/1.0.0-SNAPSHOT/artifact-checker-configuration-1.0.0-20170303.091558-23.jar is up-to-date (lastModified: Fri Mar 03 10:15:58 CET 2017).
@@ -21,14 +21,14 @@
 
 CONFIGURE SUCCESSFUL
 
-Total time: 23.611 secs
+Total time: 42.993 secs
 
 
 ---------------------------------------------------------
 Summary of warnings and errors in sysboard-core
 ---------------------------------------------------------
 
-[WARN] - Cannot find \\CERN.CH\dfs\Users\l\llagache\Desktop\src\sysboard-core\product.xml
+[WARN] - Cannot find C:\Users\llagache\Workspaces\TE-MPE-Eclipse-Mars-Java\sysboard-core\product.xml
 
 BUILD SUCCESSFUL
 
